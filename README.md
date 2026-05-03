@@ -23,9 +23,6 @@
 # Security
 - The API is secured using JSON Web Tokens (JWT) handled by Auth0. To access the API, you will need to obtain a JWT by authenticating with the /login endpoint. The JWT should then be passed in the Authorize option available in the Swagger-ui.
 
-  ### Example:
-  - Authorization: <your_jwt>
-
 # Technologies:
 - Java 17 or above
 - Spring Boot 3.0
